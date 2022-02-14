@@ -97,6 +97,14 @@ public class FloydWarshalls
         obj.printMatrix(isNegative);
     }
 }
+// Time Complexity
+// There are three loops. Each loop has constant complexities. So, the time complexity of the Floyd-Warshall algorithm is O(n3).
+
+// Space Complexity
+// The space complexity of the Floyd-Warshall algorithm is O(n2).
+
+
+
 /*
 Follow the steps below to find the shortest path between all the pairs of vertices.
 
