@@ -67,3 +67,18 @@ public class QuickSort {
 
     }
 }
+/*
+When does the worst case of Quicksort occur?
+The answer depends on the strategy for choosing pivot. 
+In early versions of Quick Sort where the leftmost (or rightmost) element is chosen as a pivot, the worst occurs in the following cases. 
+
+1) Array is already sorted in the same order. 
+2) Array is already sorted in reverse order. 
+3) All elements are the same (a special case of cases 1 and 2) 
+
+Since these cases are very common to use cases, the problem was easily solved by choosing either a random 
+index for the pivot, choosing the middle index of the partition, or (especially for longer partitions) choosing 
+the median of the first, middle and last element of the partition for the pivot. With these modifications,
+the worst case of Quicksort has fewer chances to occur, but a worst case can still occur if the input array is 
+such that the maximum (or minimum) element is always chosen as the pivot. 
+*/
