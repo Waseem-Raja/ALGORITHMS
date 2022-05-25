@@ -3,7 +3,7 @@
 // TIME COMPLEXITY OF QUICK SORT
 //Best Case : O(n log n)
 //Average Case :  O(n log n)
-//Worst Case : O(n2)
+//Worst Case : O(n2)          //worst case recurrence t(n)=t(n-1)+n
 class QuickSortAlgorithm
 {
 
