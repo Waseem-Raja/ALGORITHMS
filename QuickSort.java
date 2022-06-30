@@ -22,7 +22,8 @@ class QuickSortAlgorithm
                 j--;      // decrementing the j
             }
 
-
+                 //now if you want to sort in decreasing order then you just need to change < to > in above two while loops
+            
             if (i < j) {       // don't swap when i index is greater or equal to j index
                 // swap the value at ith index with value at jth index when i less than j
                 temp = InputArray[i];
